@@ -6,12 +6,12 @@ public class SetPlayer : MonoBehaviour
 {
     void Start()
     {
-        // use contructor non parametter
+        // use Constructor non parameter
         Player defaultPlayer = new Player();
         defaultPlayer.PlayerInfo();
 
-        // use contructor have parametter
-        Player con = new Player("Contruct", 1234);
+        // use Constructor have parameter
+        Player con = new Player("Constructor", 1234);
         con.PlayerInfo();
 
         // use get set 
